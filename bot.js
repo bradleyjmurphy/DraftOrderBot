@@ -31,7 +31,7 @@ client.on('message', message => {
                 }
 
                 //build response text
-                var reply = "\r\n";
+                var reply = "\r\nList Randomized 7 times, here is your draft order:\r\n";
                 for (i = 0; i < teams.length; i++) {
                     reply += (i + 1) + ".) " + teams[i] + "\r\n";
                   } 
